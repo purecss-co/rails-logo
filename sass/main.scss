@@ -35,19 +35,19 @@ body {
     &-1 {
       width: 45vmin;
       height: 60vmin;
+      background: $logo-color;
       top: 35vmin;
       left: -30vmin;
-      background: $logo-color;
       border-radius: 50%;
 
       &::before {
         width: 30vmin;
         height: 30vmin;
         background: $logo-color;
-        left: -3.6vmin;
         top: 5vmin;
-        border-radius: 50%;
+        left: -3.6vmin;
         transform: rotate(-25deg) skewX(-35deg);
+        border-radius: 50%;
       }
 
       &::after {
@@ -55,10 +55,10 @@ body {
         width: 18vmin;
         height: 18vmin;
         background: $logo-color;
-        left: 26vmin;
         top: -0.4vmin;
-        border-top-right-radius: 100%;
+        left: 26vmin;
         transform: rotate(-23.2deg) skewY(25deg);
+        border-radius: 0 100% 0 0;
       }
     }
 
@@ -77,28 +77,28 @@ body {
       width: 30vmin;
       height: 30vmin;
       background: $bg-color;
-      border-radius: 50%;
       top: 14.8vmin;
       left: -17.2vmin;
+      border-radius: 50%;
 
       &::before {
         width: 15vmin;
         height: 15vmin;
         background: $bg-color;
-        border-radius: 50%;
         top: 11vmin;
         left: -2.7vmin;
         transform: rotate(30deg) skewY(40deg);
+        border-radius: 50%;
       }
 
       &::after {
         width: 18vmin;
         height: 18vmin;
         background: $bg-color;
-        left: 21.5vmin;
         top: 3.8vmin;
-        border-top-right-radius: 100%;
+        left: 21.5vmin;
         transform: rotate(-7deg) skewY(25deg);
+        border-radius: 0 100% 0 0;
       }
     }
 
@@ -106,9 +106,9 @@ body {
       z-index: 2;
       width: 8vmin;
       height: 10vmin;
-      left: 15.5vmin;
-      top: 2vmin;
       background: $bg-color;
+      top: 2vmin;
+      left: 15.5vmin;
       transform: rotate(46deg);
       box-shadow: 6vmin 8.5vmin 0 0.1vmin $bg-color;
     }
@@ -120,16 +120,16 @@ body {
       width: 2.5vmin;
       height: 2.5vmin;
       background: $logo-color;
-      left: -42.7vmin;
       top: 24vmin;
+      left: -42.7vmin;
       transform: skewX(3deg) skewY(20deg);
 
       &::before {
         width: 1vmin;
         height: 4vmin;
+        background: $bg-color;
         top: -1vmin;
         left: 2.3vmin;
-        background: $bg-color;
         transform: rotate(-6deg);
       }
 
@@ -137,8 +137,8 @@ body {
         width: 2.5vmin;
         height: 2.7vmin;
         background: $logo-color;
-        left: -17.9vmin;
         top: -0.4vmin;
+        left: -17.9vmin;
         transform: skewY(-22deg) rotate(25deg);
       }
     }
@@ -148,16 +148,16 @@ body {
       width: 1.8vmin;
       height: 2.7vmin;
       background: $logo-color;
-      left: -42.6vmin;
       top: 8.9vmin;
+      left: -42.6vmin;
       transform: skewY(25deg) rotate(15deg);
 
       &::before {
         width: 1vmin;
         height: 4vmin;
+        background: $bg-color;
         top: -1vmin;
         left: 1.6vmin;
-        background: $bg-color;
         transform: rotate(-5deg);
       }
     }
@@ -167,8 +167,8 @@ body {
       width: 2.1vmin;
       height: 2.2vmin;
       background: $logo-color;
-      left: -66.1vmin;
       top: -9.4vmin;
+      left: -66.1vmin;
       transform: rotate(40deg) skewX(-1deg);
 
       &::before {
@@ -184,8 +184,8 @@ body {
         width: 1.3vmin;
         height: 2vmin;
         background: $logo-color;
-        left: 7.1vmin;
         top: -17.6vmin;
+        left: 7.1vmin;
         transform: rotate(33deg) skewX(-15deg);
       }
     }
@@ -223,8 +223,8 @@ body {
       width: 1.9vmin;
       height: 1.7vmin;
       background: $logo-color;
-      left: -36.6vmin;
       top: -3.3vmin;
+      left: -36.6vmin;
       transform: rotate(-40deg) skewY(-10deg) skewX(-5deg);
     }
   }
@@ -235,17 +235,16 @@ body {
       width: 4vmin;
       height: 15vmin;
       background: $logo-color;
-      left: -25.5vmin;
       top: 14.3vmin;
+      left: -25.5vmin;
 
       &::before {
         width: 4.2vmin;
         height: 3.5vmin;
         background: $bg-color;
-        left: 4vmin;
         top: 3.6vmin;
-        border-top-right-radius: 1.3vmin;
-        border-bottom-right-radius: 1.3vmin;
+        left: 4vmin;
+        border-radius: 0 1.3vmin 1.3vmin 0;
         box-shadow: 0.8vmin -0.2vmin 0 3.4vmin $logo-color;
       }
 
@@ -253,8 +252,8 @@ body {
         width: 4.2vmin;
         height: 10vmin;
         background: $logo-color;
-        left: 6.6vmin;
         top: 8vmin;
+        left: 6.6vmin;
         transform: rotate(-44deg) skewY(20deg);
       }
     }
@@ -264,19 +263,17 @@ body {
       width: 11.8vmin;
       height: 15vmin;
       background: $logo-color;
-      left: 11vmin;
       top: 14.2vmin;
-      border-top-right-radius: 4vmin;
-      border-top-left-radius: 3.7vmin;
+      left: 11vmin;
+      border-radius: 3.7vmin 4vmin 0 0;
 
       &::before {
         width: 3.8vmin;
         height: 4.5vmin;
         background: $bg-color;
-        left: 4vmin;
         top: 3.5vmin;
-        border-top-right-radius: 1vmin;
-        border-top-left-radius: 1vmin;
+        left: 4vmin;
+        border-radius: 1vmin 1vmin 0 0;
       }
 
       &::after {
@@ -293,8 +290,8 @@ body {
       width: 4.2vmin;
       height: 15vmin;
       background: $logo-color;
-      left: 30.5vmin;
       top: 14.3vmin;
+      left: 30.5vmin;
     }
 
     &-l {
@@ -302,8 +299,8 @@ body {
       width: 4.2vmin;
       height: 15vmin;
       background: $logo-color;
-      left: 42.4vmin;
       top: 14.3vmin;
+      left: 42.4vmin;
 
       &::before {
         width: 9.9vmin;
@@ -319,25 +316,24 @@ body {
         width: 10.3vmin;
         height: 9.1vmin;
         background: $logo-color;
-        left: 70.6vmin;
         top: 8.5vmin;
-        border-top-left-radius: 4vmin;
-        border-bottom-left-radius: 4vmin;
+        left: 70.6vmin;
+        border-radius: 4vmin 0 0 4vmin;
 
         &::before {
           width: 3.5vmin;
           height: 4vmin;
           background: $bg-color;
-          left: 7.1vmin;
           top: 5vmin;
+          left: 7.1vmin;
         }
 
         &::after {
           height: 1.8vmin;
           width: 7.5vmin;
           background: $bg-color;
-          left: 3.6vmin;
           top: 3.7vmin;
+          left: 3.6vmin;
         }
       }
 
@@ -345,11 +341,10 @@ body {
         z-index: 3;
         width: 3.7vmin;
         height: 9.2vmin;
-        left: 78.2vmin;
-        top: 19.6vmin;
         background: $logo-color;
-        border-top-right-radius: 3.7vmin;
-        border-bottom-right-radius: 3.7vmin;
+        top: 19.6vmin;
+        left: 78.2vmin;
+        border-radius: 0 3.7vmin 3.7vmin 0 0;
 
         &::before {
           width: 7vmin;
